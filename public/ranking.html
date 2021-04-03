@@ -70,94 +70,6 @@
 	</head>
 	<body>
 
-	<div id="fh5co-page">
-
-		<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
-		<aside id="fh5co-aside" role="complementary" class="border js-fullheight">
-			<h1 id="fh5co-logo"><img src="images/main_icon_small.png" width="180" height="180" alt="Free HTML5 Bootstrap Website Template"></h1>
-			<nav id="fh5co-main-menu" role="navigation">
-				<ul>
-					<li><a href="photo.html">Photos</a></li>
-					<li class="fh5co-active"><a href="ranking.html">Ranking</a></li>
-				</ul>
-			</nav>
-		</aside>
-
-		<div id="loader-container">
-			<div class="loader-inner ball-pulse"></div>
-		</div>
-
-		<div id="fh5co-main">
-			<div class="fh5co-narrow-content-2">
-			<div class='tabs'>
-				<div class='tab-buttons'>
-					<span class='content1'>Happy</span>
-					<span class='content2'>Bride&Groom</span>
-					<span class='content3'>Surprised</span>
-					<div id='lamp' class='content1'></div>
-				</div>
-			</div>
-
-			<div id="ranking-photo-main" v-show="show">
-				<h3 class="number">No.1</h3>
-				<div class="row fh5co-border-bottom">
-					<div class="col-md-12 pickup-photo">
-						<img v-lazy="sorted_item_1.pickup_photo_url" alt="" class="img-responsive">
-						<span class="overlay">
-							<h2 >{{ label }}</h2>
-							<h2 v-if="happy">{{ sorted_item_1.happy_point }}</h2>
-							<h2 v-if="groom_bride">{{ sorted_item_1.groom_bride_point }}</h2>
-							<h2 v-if="surprised">{{ sorted_item_1.surprised_point }}</h2>
-							<h3>from {{ sorted_item_1.user_name }}</h3>
-						</span>
-					</div>
-				</div>
-				<h3 class="number">No.2</h3>
-				<div class="row fh5co-border-bottom">
-					<div class="col-md-12 pickup-photo">
-						<img v-lazy="sorted_item_2.pickup_photo_url" alt="" class="img-responsive">
-						<span class="overlay">
-							<h2 >{{ label }}</h2>
-							<h2 v-if="happy">{{ sorted_item_2.happy_point }}</h2>
-							<h2 v-if="groom_bride">{{ sorted_item_2.groom_bride_point }}</h2>
-							<h2 v-if="surprised">{{ sorted_item_2.surprised_point }}</h2>
-							<h3>from {{ sorted_item_2.user_name }}</h3>
-						</span>
-					</div>
-				</div>
-				<h3 class="number">No.3</h3>
-				<div class="row fh5co-border-bottom">
-					<div class="col-md-12 pickup-photo">
-						<img v-lazy="sorted_item_3.pickup_photo_url" alt="" class="img-responsive">
-						<span class="overlay">
-							<h2 >{{ label }}</h2>
-							<h2 v-if="happy">{{ sorted_item_3.happy_point }}</h2>
-							<h2 v-if="groom_bride">{{ sorted_item_3.groom_bride_point }}</h2>
-							<h2 v-if="surprised">{{ sorted_item_3.surprised_point }}</h2>
-							<h3>from {{ sorted_item_3.user_name }}</h3>
-						</span>
-					</div>
-				</div>
-				<h3 class="number">No.4 ~</h3>
-				<div class="fh5co-gallery">
-					<a v-for="item in sorted_items" class="gallery-item">
-						<img v-lazy="item.photo_url" alt="">
-						<span class="overlay">
-							<h2 >{{ label }}</h2>
-							<h2 v-if="happy">{{ item.happy_point }}</h2>
-							<h2 v-if="groom_bride">{{ item.groom_bride_point }}</h2>
-							<h2 v-if="surprised">{{ item.surprised_point }}</h2>
-							<h3>from {{ item.user_name }}</h3>
-						</span>
-					</a>
-				</div>
-
-			</div>
-
-		</div>
-		</div>
-	</div>
-
 	<!-- jQuery -->
 	<script src="js/jquery.min.js"></script>
 	<!-- jQuery Easing -->
@@ -172,15 +84,9 @@
 	<script src="js/jquery.waypoints.min.js"></script>
 	<!-- Counters -->
 	<script src="js/jquery.countTo.js"></script>
-	<!-- Loading JS -->
-	<script src="js/loader.css.js"></script>
-	<!-- Vue JS -->
-	<script src="https://cdn.jsdelivr.net/npm/vue"></script>
-	<!-- LazyLoad JS -->
-	<script src="https://unpkg.com/vue-lazyload/vue-lazyload.js"></script>
 
 	<!-- MAIN JS -->
-	<script src="js/ranking.js"></script>
+	<script src="js/redirect.js"></script>
 
 	</body>
 </html>
