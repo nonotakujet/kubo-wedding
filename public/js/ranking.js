@@ -204,8 +204,8 @@
 	    fetchPhotos: function() {
 				var imageWidth = isMobile.any() ? 300 : 450;
 				var pickupImageWidth = isMobile.any() ? 600 : 900;
-				// var imageBaseUrl = "https://d1fdfkwimfb0y0.cloudfront.net/";
-				var imageBaseUrl = "https://20210404.s3.us-east-2.amazonaws.com/";
+				var imageBaseUrl = "https://d1fdfkwimfb0y0.cloudfront.net/";
+				// var imageBaseUrl = "https://20210404.s3.us-east-2.amazonaws.com/";
 	      $.ajax({
 					type: 'get',
 			    url: 'https://5s4ldq0sw1.execute-api.us-east-2.amazonaws.com/v1/image',
