@@ -21,12 +21,12 @@ body {
       font-size: 16px; } }
 
 a {
-  color: #873a38;
+  color: #be4c49;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
   a:hover, a:active, a:focus {
-    color: #873a38;
+    color: #be4c49;
     outline: none; }
 
 p {
@@ -55,15 +55,15 @@ figure {
 
 ::-webkit-selection {
   color: #fff;
-  background: #873a38; }
+  background: #be4c49; }
 
 ::-moz-selection {
   color: #fff;
-  background: #873a38; }
+  background: #be4c49; }
 
 ::selection {
   color: #fff;
-  background: #873a38; }
+  background: #be4c49; }
 
 #fh5co-page {
   width: 100%;
@@ -150,7 +150,7 @@ figure {
           bottom: 7px;
           left: 10px;
           right: 10px;
-          background-color: #873a38;
+          background-color: #be4c49;
           visibility: hidden;
           -webkit-transform: scaleX(0);
           -moz-transform: scaleX(0);
@@ -210,7 +210,7 @@ figure {
           #fh5co-aside .fh5co-footer ul li a:hover, #fh5co-aside .fh5co-footer ul li a:active, #fh5co-aside .fh5co-footer ul li a:focus {
             text-decoration: none;
             outline: none;
-            color: #873a38; }
+            color: #be4c49; }
 
 #loader-container {
   width: 85%;
@@ -321,7 +321,7 @@ figure {
       .pickup-photo .overlay h3 {
         font-size: 14px; } }
   .pickup-photo .overlay span {
-    color: #873a38;
+    color: #be4c49;
     color: rgba(255, 255, 255, 0.7);
     font-size: 11px;
     letter-spacing: 2px;
@@ -443,7 +443,7 @@ figure {
           .fh5co-gallery .gallery-item .overlay h3 {
             font-size: 14px; } }
       .fh5co-gallery .gallery-item .overlay span {
-        color: #873a38;
+        color: #be4c49;
         color: rgba(255, 255, 255, 0.7);
         font-size: 11px;
         letter-spacing: 2px;
@@ -518,7 +518,7 @@ body.offcanvas {
   .work-pagination a {
     color: #000; }
     .work-pagination a:hover {
-      color: #873a38;
+      color: #be4c49;
       text-decoration: none; }
   @media screen and (max-width: 480px) {
     .work-pagination span {
@@ -529,7 +529,7 @@ body.offcanvas {
 
 .fh5co-testimonial {
   padding: 3em 0;
-  background: #873a38;
+  background: #be4c49;
   position: relative; }
   @media screen and (max-width: 768px) {
     .fh5co-testimonial {
@@ -667,7 +667,7 @@ body.offcanvas {
   line-height: 1.5; }
 
 .fh5co-heading-colored {
-  color: #873a38; }
+  color: #be4c49; }
 
 .fh5co-cards {
   padding: 1em 0;
@@ -714,7 +714,7 @@ body.offcanvas {
 
 .fh5co-counter .fh5co-number {
   font-size: 100px;
-  color: #873a38;
+  color: #be4c49;
   font-weight: 400;
   margin: 0;
   padding: 0;
@@ -770,11 +770,11 @@ body.offcanvas {
         .fh5co-social li a {
           padding: 10px 8px; } }
       .fh5co-social li a:hover {
-        color: #873a38; }
+        color: #be4c49; }
       .fh5co-social li a:hover, .fh5co-social li a:active, .fh5co-social li a:focus {
         outline: none;
         text-decoration: none;
-        color: #873a38; }
+        color: #be4c49; }
 
 #map {
   width: 100%;
@@ -797,13 +797,13 @@ body.offcanvas {
     display: block;
     margin-top: 5px; }
     .fh5co-feature .fh5co-icon i {
-      color: #873a38;
+      color: #be4c49;
       font-size: 70px; }
       @media screen and (max-width: 1200px) {
         .fh5co-feature .fh5co-icon i {
           font-size: 40px; } }
   .fh5co-feature.fh5co-feature-sm .fh5co-icon i {
-    color: #873a38;
+    color: #be4c49;
     font-size: 28px; }
     @media screen and (max-width: 1200px) {
       .fh5co-feature.fh5co-feature-sm .fh5co-icon i {
@@ -970,7 +970,7 @@ body.offcanvas {
   border: 3px solid transparent; }
   .owl-theme .owl-dots .owl-dot span:hover {
     background: none;
-    border: 3px solid #873a38; }
+    border: 3px solid #be4c49; }
 
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
   background: transparent;
@@ -1002,18 +1002,18 @@ body.offcanvas {
     outline: none !important; }
 
 .btn-primary {
-  background: #873a38;
+  background: #be4c49;
   color: #fff;
-  border: 2px solid #873a38; }
+  border: 2px solid #be4c49; }
   .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-    background: #99423f !important;
-    border-color: #99423f !important; }
+    background: #c55e5c !important;
+    border-color: #c55e5c !important; }
   .btn-primary.btn-outline {
     background: transparent;
-    color: #873a38;
-    border: 2px solid #873a38; }
+    color: #be4c49;
+    border: 2px solid #be4c49; }
     .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
-      background: #873a38;
+      background: #be4c49;
       color: #fff; }
 
 .btn-success {
@@ -1103,7 +1103,7 @@ body.offcanvas {
   .form-control:active, .form-control:focus {
     outline: none;
     box-shadow: none;
-    border-color: #873a38; }
+    border-color: #be4c49; }
 
 #message {
   height: 130px; }
@@ -1112,9 +1112,9 @@ body.offcanvas {
   cursor: pointer;
   text-decoration: none; }
   .fh5co-nav-toggle.active i::before, .fh5co-nav-toggle.active i::after {
-    background: #873a38; }
+    background: #be4c49; }
   .fh5co-nav-toggle.dark.active i::before, .fh5co-nav-toggle.dark.active i::after {
-    background: #873a38; }
+    background: #be4c49; }
   .fh5co-nav-toggle:hover, .fh5co-nav-toggle:focus, .fh5co-nav-toggle:active {
     outline: none;
     border-bottom: none !important; }
@@ -1130,13 +1130,13 @@ body.offcanvas {
     font: bold 14px/.4 Helvetica;
     text-transform: uppercase;
     text-indent: -55px;
-    background: #873a38;
+    background: #be4c49;
     transition: all .2s ease-out; }
     .fh5co-nav-toggle i::before, .fh5co-nav-toggle i::after {
       content: '';
       width: 30px;
       height: 2px;
-      background: #873a38;
+      background: #be4c49;
       position: absolute;
       left: 0;
       -webkit-transition: 0.2s;
@@ -1145,10 +1145,10 @@ body.offcanvas {
   .fh5co-nav-toggle.dark i {
     position: relative;
     color: #000;
-    background: #873a38;
+    background: #be4c49;
     transition: all .2s ease-out; }
     .fh5co-nav-toggle.dark i::before, .fh5co-nav-toggle.dark i::after {
-      background: #873a38;
+      background: #be4c49;
       -webkit-transition: 0.2s;
       -o-transition: 0.2s;
       transition: 0.2s; }
